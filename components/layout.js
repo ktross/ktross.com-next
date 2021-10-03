@@ -1,13 +1,22 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faGitHub, faGitlab, faStackOverflow, faStackExchange, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Head from 'next/head'
+import Header from './header'
+import Footer from './footer'
 
 export default function Layout({ children }) {
     return (
       <>
-        {/* <Navbar /> */}
-        <div className="bg-gray-100">
-            {/* <FontAwesomeIcon icon={ faFacebook } className="h-8" /> */}
-            <main>{children}</main>
+        <Head>
+            <title>Create Next App</title>
+            {/* <link rel="icon" href="/favicon.ico" /> */}
+        </Head>
+        <div className="font-body bg-gray-100 min-h-screen flex flex-col">
+            <Header/>
+            <mail class="flex flex-1 justify-center w-full px-6">
+                <div class="w-full max-w-screen-xl py-6">
+                    {children}
+                </div>
+            </mail>
+            <Footer/>
         </div>
         {/* <Footer /> */}
       </>
