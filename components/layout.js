@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     return (
       <>
         {/* <Navbar /> */}
-        <div class="bg-gray-100">
+        <div className="bg-gray-100">
             {/* <FontAwesomeIcon icon={ faFacebook } className="h-8" /> */}
             <main>{children}</main>
         </div>
