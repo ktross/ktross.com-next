@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     return (
       <>
         <Head>
-            <title>Create Next App</title>
+            <title key="title">Layout</title>
             {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
         <div className="font-body bg-gray-100 min-h-screen flex flex-col">
