@@ -4,11 +4,26 @@ export default function Bio() {
     return (
         <div className="flex space-x-14 my-14">
             <div>
-                <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Hi there! I&apos;m Kyle Ross, a <span className="text-cinnabar-500">Full Stack Engineer</span> with over <span title={experienceStart + ' to present'}>{experience} years</span> of experience</h3>
-                <div className="mt-5 prose-lg prose-indigo text-gray-600 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-                    <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
-                    <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
-                    <div></div>
+                <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Hi there! I&apos;m Kyle Ross, a <span className="text-cinnabar-500">Full Stack Engineer</span> with
+                    over <span title={experienceStart + ' to present'}>{experience} years</span> of experience
+                </h3>
+                <div className="mt-5 prose-lg text-gray-600 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                    <p>
+                        I started building websites as a hobby in the early 2000s, and enjoyed it so much that I decided
+                        to make a career out of it. I have spent the past {experience} years developing websites and software
+                        professionally. The eastern United States is where I currently call home, but I am comfortable working in
+                        different time zones.
+                    </p>
+                    <p>
+                        Lately I have been working with Docker, Kubernetes, Jenkins/GitHub Actions, AWS services, and rapidly
+                        expanding my DevOps knowledge. PHP/Laravel has been my primary language most recently, but I have also
+                        worked with many other languages and frameworks.
+                    </p>
+                    <p>
+                        If you would like to reach out, please direct all inquiries
+                        to <a href="mailto:kyle@ktross.com" className="text-cinnabar-500" rel="noopener noreferrer">kyle@ktross.com</a>
+                    </p>
                 </div>
             </div>
             <div className="relative text-base mx-auto max-w-prose lg:max-w-prose flex-none">
