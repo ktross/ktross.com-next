@@ -9,13 +9,13 @@ export default function Layout({ children }) {
             <title key="title">Layout</title>
             {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
-        <div className="font-body bg-gray-100 min-h-screen flex flex-col">
+        <div className="font-body bg-gray-100 min-h-screen md:flex md:flex-col w-full">
             <Header/>
-            <mail className="flex flex-1 justify-center w-full px-6">
+            <div className="md:flex md:flex-1 justify-center w-full px-6">
                 <div className="w-full max-w-screen-xl py-6">
                     {children}
                 </div>
-            </mail>
+            </div>
             <Footer/>
         </div>
         {/* <Footer /> */}

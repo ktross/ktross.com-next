@@ -2,7 +2,7 @@ export default function Bio() {
     const experienceStart = 2006
     const experience = new Date().getFullYear() - experienceStart
     return (
-        <div className="flex space-x-14 my-14">
+        <div className="md:flex space-x-14 my-14">
             <div>
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                     Hi there! I&apos;m Kyle Ross, a <span className="text-cinnabar-500">Full Stack Engineer</span> with

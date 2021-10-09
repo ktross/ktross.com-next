@@ -1,6 +1,6 @@
 export default function Clients() {
     return (
-        <div className="flex justify-around items-center my-14">
+        <div className="md:flex justify-around items-center my-14">
             <p className="text-base font-semibold uppercase text-gray-700 tracking-wider w-64">Clients that I&apos;ve had the pleasure of working with</p>
             <img title="Google" alt="Google"
                 className="h-14 mx-4 grayscale hover:grayscale-0 transition duration-500 ease-in-out" width="166" height="56"
