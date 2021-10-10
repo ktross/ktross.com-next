@@ -2,7 +2,7 @@ export default function Bio() {
     const experienceStart = 2006
     const experience = new Date().getFullYear() - experienceStart
     return (
-        <div className="flex space-x-14 my-14">
+        <div className="md:flex md:space-x-14 md:my-14">
             <div>
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                     Hi there! I&apos;m Kyle Ross, a <span className="text-cinnabar-500">Full Stack Engineer</span> with
@@ -26,7 +26,7 @@ export default function Bio() {
                     </p>
                 </div>
             </div>
-            <div className="relative text-base mx-auto max-w-prose lg:max-w-prose flex-none">
+            <div className="mt-6 md:mt-0 text-base mx-auto max-w-prose lg:max-w-prose flex-none">
                 <figure>
                     <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                         <img src="https://cdn.ktross.com/images/kyle-ross.png" alt="Kyle Ross" title="Kyle Ross"
