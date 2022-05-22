@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NavPrimary(props) {
     return (
-        <div className={['text-lg font-semibold', props.className].join(' ')}>
+        <div className={['text-xl', props.className].join(' ')}>
             <Link href="/">
                 <a className={['ml-3', props.linkClass].join(' ')}>Home</a>
             </Link>
